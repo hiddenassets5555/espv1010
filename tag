@@ -19,14 +19,14 @@ local ESP = {
         Chams = {
             Enabled  = true,
             Thermal = true,
-            FillRGB = Color3.fromRGB(119, 120, 255),
+            FillRGB = Color3.fromRGB(255, 255, 255),
             Fill_Transparency = 100,
-            OutlineRGB = Color3.fromRGB(119, 120, 255),
-            Outline_Transparency = 100,
+            OutlineRGB = Color3.fromRGB(255, 255, 255),
+            Outline_Transparency = 100, 
             VisibleCheck = true,
         },
         Names = {
-            Enabled = true,
+            Enabled = false,
             RGB = Color3.fromRGB(255, 255, 255),
         },
         Flags = {
@@ -38,26 +38,26 @@ local ESP = {
             RGB = Color3.fromRGB(255, 255, 255),
         },
         Weapons = {
-            Enabled = true, WeaponTextRGB = Color3.fromRGB(119, 120, 255),
+            Enabled = false, WeaponTextRGB = Color3.fromRGB(119, 120, 255),
             Outlined = false,
             Gradient = false,
             GradientRGB1 = Color3.fromRGB(255, 255, 255), GradientRGB2 = Color3.fromRGB(119, 120, 255),
         },
         Healthbar = {
             Enabled = true,  
-            HealthText = true, Lerp = false, HealthTextRGB = Color3.fromRGB(119, 120, 255),
+            HealthText = true, Lerp = false, HealthTextRGB = Color3.fromRGB(255, 255, 255),
             Width = 2.5,
-            Gradient = true, GradientRGB1 = Color3.fromRGB(200, 0, 0), GradientRGB2 = Color3.fromRGB(60, 60, 125), GradientRGB3 = Color3.fromRGB(119, 120, 255), 
+            Gradient = true, GradientRGB1 = Color3.fromRGB(200, 0, 0), GradientRGB2 = Color3.fromRGB(255, 255, 255), GradientRGB3 = Color3.fromRGB(255, 255, 255), 
         },
         Boxes = {
             Animate = true,
             RotationSpeed = 300,
-            Gradient = false, GradientRGB1 = Color3.fromRGB(119, 120, 255), GradientRGB2 = Color3.fromRGB(0, 0, 0), 
-            GradientFill = true, GradientFillRGB1 = Color3.fromRGB(119, 120, 255), GradientFillRGB2 = Color3.fromRGB(0, 0, 0), 
+            Gradient = false, GradientRGB1 = Color3.fromRGB(255, 255, 255), GradientRGB2 = Color3.fromRGB(0, 0, 0), 
+            GradientFill = true, GradientFillRGB1 = Color3.fromRGB(255, 255, 255), GradientFillRGB2 = Color3.fromRGB(0, 0, 0), 
             Filled = {
                 Enabled = true,
                 Transparency = 0.75,
-                RGB = Color3.fromRGB(0, 0, 0),
+                RGB = Color3.fromRGB(119, 120, 255),
             },
             Full = {
                 Enabled = true,
