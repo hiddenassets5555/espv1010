@@ -47,7 +47,7 @@ local ESP = {
             Enabled = true,  
             HealthText = true, Lerp = false, HealthTextRGB = Color3.fromRGB(255, 255, 255),
             Width = 2.5,
-            Gradient = true, GradientRGB1 = Color3.fromRGB(200, 0, 0), GradientRGB2 = Color3.fromRGB(255, 255, 255), GradientRGB3 = Color3.fromRGB(255, 255, 255), 
+            Gradient = true, GradientRGB1 = Color3.fromRGB(0, 0, 0), GradientRGB2 = Color3.fromRGB(255, 255, 255), GradientRGB3 = Color3.fromRGB(255, 255, 255), 
         },
         Boxes = {
             Animate = true,
